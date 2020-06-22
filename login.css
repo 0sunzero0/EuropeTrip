@@ -1,0 +1,32 @@
+html, body{height: 100%; width: 100%; margin:0;}
+#login_wrapper{
+  width:auto;
+  height: 100%;
+  min-height: 500px;
+  background-image: url("img/login.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login{
+  padding: 10px 40px 20px 20px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+}
+button{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+h1{
+  padding-bottom: 5px;
+}
+label{
+  padding-top: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/back.jpg);
+  background-repeat: no-repeat;
+  min-height: 40%;
+}
+
+.menu {
+  display: none;
+}
+
+footer {
+  margin-top: 40px;
+}

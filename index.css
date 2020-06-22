@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/back.jpg);
+  background-repeat: no-repeat;
+  min-height: 40%;
+}
+
+.menu {
+  display: none;
+}
+
+.MAPS{
+    display: flex;
+    position: relative;
+    /*top: 50%; left: 50%;*/
+    border: solid 1px gray;
+    height: 400px;
+    max-width: 600px ;
+    /*margin: 0 auto;*/
+    /*width: 200px;*/
+    /*margin-left: -250px;
+    margin-top: -250px;*/
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.w3-display-middle {
+    top: 57%;
+}
+
+.w3-col.s6 {
+    width: 33.3333%;
+}
+
+.w3-leftbar {
+    border-left: 6px solid #ccc!important;
+    width: 32.0%;
+    display: inline-block;
+}
+
+.search#option2{
+  display:none;
+}
+.filter{
+  border: 1px solid beige;
+  background-color: #f7f5f2;
+  font-size: 10px;
+  color: #545454;
+  padding: 3px 15px 3px 15px;
+  text-align: left;
+  border-radius: 30px;
+}
