@@ -1,4 +1,4 @@
-# 우리가 떠나야 할 EU
+# 우리가 떠나야 할 EU 🌴
 ✈️ All about Europe, especially Hotels, Restaurants, and tourist attractions in one search
 ## 우리가 떠나야 할 EU란?
 ### 소개
@@ -20,6 +20,47 @@
 - 광고없는 쾌적한 searching
 
 ## 결과
+사진1
+사진2
+데모 영상 주소
+### 제공하고자 하는 서비스
+사진
+### 본 검색 서비스의 특징
+- 검색 옵션을 선택 가능
+  - 도시이름 ,나라이름 중 하나를 선택하여 주변 관광 정보들을 한번에 검색 가능
+- 결과 출력 옵션을 선택 가능
+  - 여행지, 호텔, 레스토랑들을 필터를 적용하여 검색시 가격, 식당 종류, 호텔 인원 등을 선택할 수 있는 옵션 기능 추가
+
+## 배운점
+유럽 여행을 계획하고 있는 사람들에게 식당, 호텔, 관광지등의 정보를
+한 번의 검색으로 제공 
+- 유럽 여행 관련 정보를 쉽고 빠르게 얻을 수 있음
 
 
+다른 사이트와 달리 광고 없이 여행지 필터와 검색기능을 동시에 제공
+- 사용자에게 선별적인 정보 제공 가능 및 쾌적한 사용감 선사
 
+식당, 호텔, 여행지 등에 대한 많은 정보를 제공
+- 여행을 많이 해보지 않은 사람들이나 처음 여행을 떠나는 사람들에게
+  유럽 여행에 관한 정보 부족 문제를 해소
+
+
+## 개발 환경 및 사용 데이터
+- MySQL Workbench, Jetbrain Datagrip, Mac Z-shell terminal
+- Amazon Web Service EC2 Linux AMI
+- Apache/2.2.34(Unix), mysql ver.14.14 Distrib 5.5.62, for Linux, PHP 5.3.29 (cli)
+
+- (Hotel) 515k Hotels Reviews Data in Europe
+- (Restaurant) Restaurants Info for 31 Euro-cities
+- (Tourist) Tourist Attractions of each cities in EU
+
+## Database Schema
+사진3
+
+## Database Tables
+사진4
+- 총 개수 : 24개
+- 전부 Normalization 과정을 거쳤음 (no denormalizaion)
+- 자연어로써, 한국 명칭만을 담은 테이블을 따로 만들어 LN으로 지칭함
+- 회원가입과 로그인/로그아웃을 위한 user table 구성
+- 서칭 기록을 담은 테이블인 history 테이블을 생성하고, 이를 history_category, history_user로 더욱 세분화함
