@@ -22,8 +22,7 @@
 - 데모 영상 주소 : https://www.youtube.com/watch?v=xs_1EB2tig4
 ![Output1](https://user-images.githubusercontent.com/29566893/127650332-0b31b9a9-2f6b-4cb6-bd15-efe05dbc0939.png)
 ![Output2](https://user-images.githubusercontent.com/29566893/127650470-507befba-5ced-4c14-af73-9f3d9b7d3651.png)
-### 제공 서비스
-![Service](https://user-images.githubusercontent.com/29566893/127650023-6e2e1790-38ea-4d46-90ad-135c97ad5cb3.png)
+
 ### 본 검색 서비스의 특징
 - 검색 옵션을 선택 가능
   - 도시이름 ,나라이름 중 하나를 선택하여 주변 관광 정보들을 한번에 검색 가능
