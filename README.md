@@ -10,21 +10,21 @@
 ### 진행기간
 - 진행 기간 :  2020.03.23~2020.06.22
 
-## 우리가 떠나야할 EU의 목적
-###  빠른 검색
-- 여러 결과를 한번에 보고, 지도에서 곧바로 확인
-### 복잡하지 않은 기능
-- 간단한 옵션 및 필터 선택
-### 사용자 중심 UI/UX
-- 심플하고 직관적인 디자인
-- 광고없는 쾌적한 searching
+### 목적
+- 빠른 검색
+  - 여러 결과를 한번에 보고, 지도에서 곧바로 확인
+- 복잡하지 않은 기능
+  - 간단한 옵션 및 필터 선택
+- 사용자 중심 UI/UX
+  - 심플하고 직관적인 디자인
+  - 광고없는 쾌적한 searching
 
 ## 결과
 ![Output1](https://user-images.githubusercontent.com/29566893/127650332-0b31b9a9-2f6b-4cb6-bd15-efe05dbc0939.png)
 ![Output2](https://user-images.githubusercontent.com/29566893/127650470-507befba-5ced-4c14-af73-9f3d9b7d3651.png)
 [데모 영상 주소](https://www.youtube.com/watch?v=xs_1EB2tig4)
 ### 제공하고자 하는 서비스
-사진
+![Service](https://user-images.githubusercontent.com/29566893/127650023-6e2e1790-38ea-4d46-90ad-135c97ad5cb3.png)
 ### 본 검색 서비스의 특징
 - 검색 옵션을 선택 가능
   - 도시이름 ,나라이름 중 하나를 선택하여 주변 관광 정보들을 한번에 검색 가능
@@ -36,18 +36,19 @@
 - MySQL Workbench, Jetbrain Datagrip, Mac Z-shell terminal
 - Amazon Web Service EC2 Linux AMI
 - Apache/2.2.34(Unix), mysql ver.14.14 Distrib 5.5.62, for Linux, PHP 5.3.29 (cli)
-
+<br>
 - (Hotel) 515k Hotels Reviews Data in Europe
 - (Restaurant) Restaurants Info for 31 Euro-cities
 - (Tourist) Tourist Attractions of each cities in EU
 
-## Database Schema
-사진3
+## Database
+### Database Schema
+![DB Schema](https://user-images.githubusercontent.com/29566893/127652366-50bc44f5-b226-41ad-91e1-272d859f0e13.png)
 
-## Database Tables
-사진4
+### Database Tables
 - 총 개수 : 24개
 - 전부 Normalization 과정을 거쳤음 (no denormalizaion)
 - 자연어로써, 한국 명칭만을 담은 테이블을 따로 만들어 LN으로 지칭함
 - 회원가입과 로그인/로그아웃을 위한 user table 구성
 - 서칭 기록을 담은 테이블인 history 테이블을 생성하고, 이를 history_category, history_user로 더욱 세분화함
+![DB Table](https://user-images.githubusercontent.com/29566893/127652463-437588b3-156b-4275-a43b-8d28ca26cd5a.png)
