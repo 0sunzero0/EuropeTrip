@@ -19,9 +19,9 @@
   - 광고없는 쾌적한 searching
 
 ## 2️⃣ 결과
+- 데모 영상 주소 : https://www.youtube.com/watch?v=xs_1EB2tig4
 ![Output1](https://user-images.githubusercontent.com/29566893/127650332-0b31b9a9-2f6b-4cb6-bd15-efe05dbc0939.png)
 ![Output2](https://user-images.githubusercontent.com/29566893/127650470-507befba-5ced-4c14-af73-9f3d9b7d3651.png)
-[데모 영상 주소](https://www.youtube.com/watch?v=xs_1EB2tig4)
 ### 제공하고자 하는 서비스
 ![Service](https://user-images.githubusercontent.com/29566893/127650023-6e2e1790-38ea-4d46-90ad-135c97ad5cb3.png)
 ### 본 검색 서비스의 특징
@@ -34,7 +34,7 @@
 - MySQL Workbench, Jetbrain Datagrip, Mac Z-shell terminal
 - Amazon Web Service EC2 Linux AMI
 - Apache/2.2.34(Unix), mysql ver.14.14 Distrib 5.5.62, for Linux, PHP 5.3.29 (cli)
-<br>
+
 - (Hotel) 515k Hotels Reviews Data in Europe
 - (Restaurant) Restaurants Info for 31 Euro-cities
 - (Tourist) Tourist Attractions of each cities in EU
@@ -49,6 +49,3 @@
 - 자연어로써, 한국 명칭만을 담은 테이블을 따로 만들어 LN으로 지칭함
 - 회원가입과 로그인/로그아웃을 위한 user table 구성
 - 서칭 기록을 담은 테이블인 history 테이블을 생성하고, 이를 history_category, history_user로 더욱 세분화함
-
-
-![DB Table](https://user-images.githubusercontent.com/29566893/127652463-437588b3-156b-4275-a43b-8d28ca26cd5a.png)
