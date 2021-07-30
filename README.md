@@ -49,4 +49,5 @@
 - 자연어로써, 한국 명칭만을 담은 테이블을 따로 만들어 LN으로 지칭함
 - 회원가입과 로그인/로그아웃을 위한 user table 구성
 - 서칭 기록을 담은 테이블인 history 테이블을 생성하고, 이를 history_category, history_user로 더욱 세분화함
+<br>
 ![DB Table](https://user-images.githubusercontent.com/29566893/127652463-437588b3-156b-4275-a43b-8d28ca26cd5a.png)
