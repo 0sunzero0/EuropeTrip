@@ -1,5 +1,6 @@
 # 우리가 떠나야 할 EU 🌴
 ✈️ All about Europe, especially Hotels, Restaurants, and tourist attractions in one search
+
 ## 1️⃣ 우리가 떠나야 할 EU란?
 ### 소개
 - 기술의 발전으로 전세계를 자유롭게 여행할 수 있는 시대가 되었습니다. 그러나 너무 방대한 정보들과 선택지들이 범람하는 탓인지, 여행을 계획하는 이들에게 정보 접근에 대한 편의성 만큼 불편함도 적지 않게 있다는 것을 알게 되었습니다.
